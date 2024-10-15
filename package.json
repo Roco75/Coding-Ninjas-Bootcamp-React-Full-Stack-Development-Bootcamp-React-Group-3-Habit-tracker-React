@@ -1,6 +1,5 @@
 {
-  "homepage": "https://Roco75.github.io/Coding-Ninjas-Bootcamp-React-Full-Stack-Development-Bootcamp-React-Group-3-Habit-tracker-React",
-  "name": "habit-tracker",
+  "homepage": "https://roco75.github.io/Coding-Ninjas-Bootcamp-React-Full-Stack-Development-Bootcamp-React-Group-3-Habit-tracker-React",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

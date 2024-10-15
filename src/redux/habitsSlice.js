@@ -1,7 +1,6 @@
 // src/redux/habitsSlice.js
 import { createSlice } from '@reduxjs/toolkit';
 
-
 const habitsSlice = createSlice({
   name: 'habits',
   initialState: [],
