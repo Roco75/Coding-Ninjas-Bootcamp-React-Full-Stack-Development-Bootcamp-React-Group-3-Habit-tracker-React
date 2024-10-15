@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Coding-Ninjas-Bootcamp-React-Full-Stack-Development-Bootcamp-React-Group-3-Habit-tracker-React/static/css/main.a5db3b8b.css",
+    "main.js": "/Coding-Ninjas-Bootcamp-React-Full-Stack-Development-Bootcamp-React-Group-3-Habit-tracker-React/static/js/main.f72c7c0a.js",
+    "index.html": "/Coding-Ninjas-Bootcamp-React-Full-Stack-Development-Bootcamp-React-Group-3-Habit-tracker-React/index.html",
+    "main.a5db3b8b.css.map": "/Coding-Ninjas-Bootcamp-React-Full-Stack-Development-Bootcamp-React-Group-3-Habit-tracker-React/static/css/main.a5db3b8b.css.map",
+    "main.f72c7c0a.js.map": "/Coding-Ninjas-Bootcamp-React-Full-Stack-Development-Bootcamp-React-Group-3-Habit-tracker-React/static/js/main.f72c7c0a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5db3b8b.css",
+    "static/js/main.f72c7c0a.js"
+  ]
+}
