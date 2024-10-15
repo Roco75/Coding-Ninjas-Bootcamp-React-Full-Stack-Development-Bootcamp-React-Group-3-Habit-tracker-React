@@ -1,18 +1,25 @@
-// src/components/HabitItem.js
+// src/components/HabitList.js
 import React from 'react';
-import StatusToggle from './StatusToggle';
+import { useSelector } from 'react-redux';
+import HabitItem from './HabitItem';
 
-const HabitItem = ({ habit }) => {
+const HabitList = () => {
+  const habits = useSelector((state) => state.habits);
+
   return (
-    <div className="habit-item">
-      <h3>{habit.name}</h3>
-      <div className="status-container">
-        {habit.days.map((status, index) => (
-          <StatusToggle key={index} day={index} status={status} habitId={habit.id} />
-        ))}
-      </div>
+    <div>
+      <h2>Your Habits</h2>
+      {habits.length === 0 ? (
+        <p>No habits added yet!</p>
+      ) : (
+        <ul>
+          {habits.map((habit) => (
+            <HabitItem key={habit.id} habit={habit} />
+          ))}
+        </ul>
+      )}
     </div>
   );
 };
 
-export default HabitItem;
+export default HabitList;
